@@ -18,17 +18,17 @@ collaborations must be explicitly acknowledged at the top of your submissions**.
     + *Code review*: Assigned Fri 3/10. Due by Mon 3/13 9:05am.
     + *Ethics*:
         1. Listen to <a target="_blank" class="page-link" href="http://www.econtalk.org/archives/2016/10/cathy_oneil_on_1.html">Econ Talk podcast interview</a> (time 1h11m) of <a target="_blank" class="page-link" href="https://mathbabe.org/">Cathy O'Neil</a>, author of <a target="_blank" class="page-link" href="https://weaponsofmathdestructionbook.com/">Weapons of Math Destruction</a>.
-        1. Have an answer for these discussion questions:
+        1. Explain in three paragraphs Cathy O'Neil's argument of how supposedly object mathematical/algorithmic models reinforce inequality in the context of 1) crime recidivism, 2) the thought experiment of hiring in tech firms and 3) teacher evaluations.
 * **Learning Goals:**
     + Baby's first true model fitting experience!
     + However we keep things simple in that there is only one true predictor **and** you'll  know it exactly.
 * **Homework:** <a target="_blank" class="page-link" href="https://github.com/rudeboybert/MATH218/tree/gh-pages/assets/PS/PS03">Data!!!</a> If you've never downloaded a CSV off GitHub, ask the person next to you. Chances are they'll know!
-    + Fit any model you like!
     + You will be submitting three files on Friday at 9:05am:
         1. `PS03_FirstName_LastName.R` with your model code + MSE on the training data
         1. `PS03_submission_FirstName_LastName.csv` with your predictions
         1. `PS03_discussion_FirstName_LastName.txt` with your discussion points. Text files only please!
 * **Notes:** Think
+    + Fit any model you like!
     + What is an appropriate "score" criteria in this situation
     + After each model fit, compute the score of your model on the entirety of the `train` data
     + I will give you a score only **after** you submit your problem set on Friday. What can you do until then?
