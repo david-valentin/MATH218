@@ -13,12 +13,15 @@ collaborations must be explicitly acknowledged at the top of your submissions**.
 
 **Not yet complete; please wait until lecture on Monday**
 
+
+
+
 * **Info:**
     + *Code portion*: Assigned Sun 3/5. To be submitted on Fri 3/10 9:05am.
     + *Code review*: Assigned Fri 3/10. Due by Mon 3/13 9:05am.
     + *Ethics*:
         1. Listen to <a target="_blank" class="page-link" href="http://www.econtalk.org/archives/2016/10/cathy_oneil_on_1.html">Econ Talk podcast interview</a> (time 1h11m) of <a target="_blank" class="page-link" href="https://mathbabe.org/">Cathy O'Neil</a>, author of <a target="_blank" class="page-link" href="https://weaponsofmathdestructionbook.com/">Weapons of Math Destruction</a>.
-        1. Explain in three paragraphs Cathy O'Neil's argument of how supposedly object mathematical/algorithmic models reinforce inequality in the context of 1) crime recidivism, 2) the thought experiment of hiring in tech firms and 3) teacher evaluations.
+        1. Explain in three paragraphs Cathy O'Neil's argument of how supposedly objective mathematical/algorithmic models reinforce inequality in the context of 1) crime recidivism, 2) the thought experiment of hiring in tech firms and 3) teacher evaluations.
 * **Learning Goals:**
     + Baby's first true model fitting experience!
     + However we keep things simple in that there is only one true predictor **and** you'll  know it exactly.
@@ -32,8 +35,6 @@ collaborations must be explicitly acknowledged at the top of your submissions**.
     + What is an appropriate "score" criteria in this situation
     + After each model fit, compute the score of your model on the entirety of the `train` data
     + I will give you a score only **after** you submit your problem set on Friday. What can you do until then?
-
-
 
 
 
