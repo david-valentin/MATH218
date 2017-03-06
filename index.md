@@ -16,7 +16,7 @@ Lectures will be a combination of chalk talks and <a target="_blank" class="page
 
 ## 2. Continuous Outcome Models
 
-* **Lec09 - Mon 3/5**: Splines
+* **Lec09 - Mon 3/5**: Starting PS03
 * **Lec08 - Fri 3/3**: Pseudocode for Cross-Validation
 * **Lec07 - Wed 3/1**: Regression Part III
     + Go over <a href="{{ site.baseurl }}/assets/splines/intro_splines.R" target="_blank">`intro_splines.R`</a>.

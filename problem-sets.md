@@ -29,7 +29,8 @@ collaborations must be explicitly acknowledged at the top of your submissions**.
         1. `PS03_submission_FirstName_LastName.csv` with your predictions
         1. `PS03_discussion_FirstName_LastName.txt` with your discussion points. Text files only please!
 * **Notes:** Think
-    + What is an appropriate "score" criteria in this situation.
+    + What is an appropriate "score" criteria in this situation
+    + After each model fit, compute the score of your model on the entirety of the `train` data
     + I will give you a score only **after** you submit your problem set on Friday. What can you do until then?
 
 
