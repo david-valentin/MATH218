@@ -130,3 +130,44 @@ mean(scores)
 #    a) If your score goes up, then you were initially wrong
 #    b) If your score goes down, then you were intially right
 # 3. Do this 418 times to get EVERYTHING correct
+
+
+
+
+
+
+# Added on Tue Mar 7 ------------------------------------------------------
+# ORIGINAL SCHEME: Assign folds at random
+n_folds <- 5
+train <- train %>%
+  mutate(fold = sample(1:n_folds, replace=TRUE, size=nrow(train)))
+
+# PROBLEM: We're supposed to divide the 891 into 5-equally sized blocks, upto
+# rounding error
+train %>%
+  group_by(fold) %>%
+  summarize(n = n())
+
+# We should assign folds 1, 2, ..., n_folds using the rep() command: repeat
+rep(1:5, length=11)
+
+# Note: the n() function in dplyr counts the number of observations in a group:
+train %>%
+  mutate(fold = rep(1:5, length=n())) %>%
+  group_by(fold) %>%
+  summarize(n = n())
+
+# However, if the rows are listed in a meaningful order, this will bias the
+# results. We need to randomly shuffle the rows first!
+train %>%
+  # Equivalent to shuffling the rows:
+  sample_frac(1) %>%
+  mutate(fold = rep(1:5, length=n())) %>%
+  group_by(fold) %>%
+  summarize(n = n())
+
+# Ultimately I don't think the results would've changed much, but we should
+# stick to what the algorithm calls for.
+
+
+
