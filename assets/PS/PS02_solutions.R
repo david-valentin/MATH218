@@ -143,12 +143,20 @@ train <- train %>%
   mutate(fold = sample(1:n_folds, replace=TRUE, size=nrow(train)))
 
 # PROBLEM: We're supposed to divide the 891 into 5-equally sized blocks, upto
-# rounding error
+# a remainder of 1, 2, or, n_folds - 1. This is not the case here!
 train %>%
   group_by(fold) %>%
   summarize(n = n())
+# A tibble: 5 × 2
+#    fold     n
+#   <int> <int>
+# 1     1   171
+# 2     2   197
+# 3     3   185
+# 4     4   178
+# 5     5   160
 
-# We should assign folds 1, 2, ..., n_folds using the rep() command: repeat
+# We could assign folds 1, 2, ..., n_folds using the rep() command: repeat
 rep(1:5, length=11)
 
 # Note: the n() function in dplyr counts the number of observations in a group:
@@ -156,6 +164,14 @@ train %>%
   mutate(fold = rep(1:5, length=n())) %>%
   group_by(fold) %>%
   summarize(n = n())
+# A tibble: 5 × 2
+#    fold     n
+#   <int> <int>
+# 1     1   179
+# 2     2   178
+# 3     3   178
+# 4     4   178
+# 5     5   178
 
 # However, if the rows are listed in a meaningful order, this will bias the
 # results. We need to randomly shuffle the rows first!
