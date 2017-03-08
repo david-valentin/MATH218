@@ -51,6 +51,15 @@ if(FALSE){
 Piecewise polynomials with smoothness constraints.
 
 
+## Loess
+
+<center><img src="assets/figure/loess.gif" alt="Drawing" style="width: 500px;"/></center>
+
+
+## Splines vs Loess
+
+<a target="_blank" class="page-link" href="http://stats.stackexchange.com/questions/20032/comparing-smoothing-splines-vs-loess-for-smoothing">Same difference?</a>
+
 
 
 
