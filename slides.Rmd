@@ -50,7 +50,7 @@ if(FALSE){
 
 Piecewise polynomials with smoothness constraints.
 
-
+<!--
 ## LOESS Smoother
 
 **LOcal regrESSion**
@@ -61,7 +61,8 @@ Algorithm: For a sliding window
 1. Mark the "middle point"
 1. Slide window over
 1. Repeat Step 1 while tracing the "middle point"
-    
+-->
+
 
 ## LOESS Smoother
 
