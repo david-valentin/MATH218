@@ -51,7 +51,7 @@ if(FALSE){
 
 <center><img src="assets/splines/splines.png" alt="Drawing" style="width: 500px;"/></center>
 
-Splines: Calculus and Linear Algebra <a target="_blank" class="page-link" href="assets/splines/splines.pdf">at work</a>.
+Splines: Calculus and Linear Algebra <a target="_blank" class="page-link" href="assets/splines/splines_notes.pdf">at work</a>.
 
 
 
