@@ -44,21 +44,36 @@ if(FALSE){
 #' 
 #' 
 #' <!----------------------------------------------------------------------------->
-#' # **Lec10 - Wed 3/8**: Splines
+#' # **Lec10 - Wed 3/8**: Splines + LOESS Smoothers
 #' 
 #' ## What are splines?
 #' 
 #' Piecewise polynomials with smoothness constraints.
 #' 
 #' 
-#' ## Loess
+#' ## LOESS Smoother
+#' 
+#' **LOcal regrESSion**
+#' 
+#' Algorithm: For a sliding window
+#' 
+#' 1. Fit a simple linear regression to all points in window
+#' 1. Mark the "middle point"
+#' 1. Slide window over
+#' 1. Repeat Step 1 while tracing the "middle point"
+#'     
+#' 
+#' ## LOESS Smoother
+#' 
+#' The red curve is the LOESS smoothed curve:
 #' 
 #' <center><img src="assets/figure/loess.gif" alt="Drawing" style="width: 500px;"/></center>
 #' 
 #' 
 #' ## Splines vs Loess
 #' 
-#' <a target="_blank" class="page-link" href="http://stats.stackexchange.com/questions/20032/comparing-smoothing-splines-vs-loess-for-smoothing">Same difference?</a>
+#' <a target="_blank" class="page-link" href="http://stats.stackexchange.com/questions/20032/comparing-smoothing-splines-vs-loess-for-smoothing">Comparing smoothing splines vs loess for smoothing?</a>
+#' 
 #' 
 #' 
 #' 
