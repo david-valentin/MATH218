@@ -47,7 +47,7 @@ if(FALSE){
 #' # **Lec10 - Wed 3/8**: Splines + LOESS Smoothers
 #' 
 #' 
-#' ## What are splines?
+#' ## What are splines? p.272
 #' 
 #' <center><img src="assets/splines/splines.png" alt="Drawing" style="width: 500px;"/></center>
 #' 
